@@ -3,6 +3,10 @@ package diceApp.io.github.Julienchilhagopian;
 public class TripletOfDice {
     private int nbSides, dice1Value, dice2Value, dice3Value;
 
+    /**
+     * Constructor to create a new triplet of dice
+     * @param nbSides nb of desired sides for the triplet of dice
+     */
     public TripletOfDice(int nbSides) {
             if(nbSides <= 0) {
                 throw new IllegalArgumentException("Your dice cant have no sides");
@@ -10,6 +14,10 @@ public class TripletOfDice {
             this.nbSides = nbSides;
 
     }
+
+    /**
+     * This method rolls all the dice once
+     */
 
     public void rollAllDice() {
         this.dice1Value = this.randomNumber(this.nbSides);
