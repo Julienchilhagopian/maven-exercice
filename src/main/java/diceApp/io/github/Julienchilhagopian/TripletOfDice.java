@@ -57,16 +57,22 @@ public class TripletOfDice {
      */
     public int getDice1() {
         if(this.dice1Value == 0) {
-            throw new IndexOutOfBoundsException("roll a dice first");
+            throw new IndexOutOfBoundsException("roll the dice first");
         }
         return this.dice1Value;
     }
 
     public int getDice2() {
+        if(this.dice2Value == 0) {
+            throw new IndexOutOfBoundsException("roll the dice first");
+        }
         return this.dice2Value;
     }
 
     public int getDice3() {
+        if(this.dice3Value == 0) {
+            throw new IndexOutOfBoundsException("roll the dice first");
+        }
         return this.dice3Value;
     }
 
