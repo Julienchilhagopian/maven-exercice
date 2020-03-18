@@ -13,7 +13,6 @@ public class DiceUser {
     public static TripletOfDice rollOnce() {
         TripletOfDice tripletOfSixFacedDice = new TripletOfDice(6);
         tripletOfSixFacedDice.rollAllDice();
-        tripletOfSixFacedDice.rollOneDice(4);
         return tripletOfSixFacedDice;
     }
 }
