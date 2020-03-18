@@ -1,4 +1,4 @@
-package mainPackage.io.github.Julienchilhagopian;
+package diceApp.io.github.Julienchilhagopian;
 
 public class DiceUser {
 

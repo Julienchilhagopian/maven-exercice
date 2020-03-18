@@ -1,6 +1,6 @@
-package mainPackage;
+package diceApp;
 
-import mainPackage.io.github.Julienchilhagopian.TripletOfDice;
+import diceApp.io.github.Julienchilhagopian.TripletOfDice;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
